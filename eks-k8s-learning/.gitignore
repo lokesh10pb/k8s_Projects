@@ -1,0 +1,18 @@
+# AWS credentials — never commit these
+.aws/
+*.pem
+*.key
+credentials
+
+# kubectl cache
+.kube/cache/
+.kube/http-cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
